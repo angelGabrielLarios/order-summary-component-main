@@ -1,0 +1,104 @@
+:root {
+    --Pale: #e0e8ff;
+    --Bright: #3829e0;
+    --VeryBlue: #f5f7ff;
+    --Desaturated: #7280a7;
+    --Darkblue: #1f2f56;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--Pale);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    width: 90%;
+    max-width: 340px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__info {
+    padding: 1.5rem;
+}
+
+.card__title {
+    font-weight: 900;
+    padding: 1rem 0;
+    color: var(--Darkblue);
+}
+
+.card__desc {
+    color: var(--Desaturated);
+    margin-bottom: 1rem;
+}
+
+.card__plan {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--VeryBlue);
+    border-radius: 1rem;
+
+}
+
+.card__icono-texto {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.card__plan-title {
+    font-weight: 900;
+}
+
+.card__price {
+    color: var(--Desaturated);
+}
+
+.card__music-img {
+    display: block;
+    width: 100%;
+}
+
+.card__link {
+    display: block;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    background-color: var(--Bright);
+    border: none;
+    color: #fff;
+    padding: 1.2rem 0;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+
+}
+
+.btn-cancel {
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--Desaturated);
+}
